@@ -30,7 +30,7 @@ h2 {
 #image-div {
     height: 100vh;
     width: 100vw;
-    background-image: url('images/apple-keyboard-ballpen-black-and-white-934062.jpg');
+    background-image: url('images/apple-keyboard.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -208,6 +208,97 @@ p {
     border: 2px solid #E47B4D;
     padding: 0 2em 0 2em;
     margin: 2em 2em 2em 2em;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+/* Projects */
+
+.project div {
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    justify-content: center;
+}
+
+.project a {
+    text-decoration: none;
+}
+
+.ahref {
+    background-image: url('images/cramIT.jpg');
+    height: 200px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ahref2 {
+    background-image: url('images/impactful.jpg');
+    height: 200px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.repo-demo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.repo-demo div {
+    text-align: center;
+}
+
+.repoDemo-btn {
+    height: 40px;
+    width: 80px;
+    border: solid 1px black;
+    padding-top: 10px;
+}
+
+
+/* NEW ADDED */
+
+.code {
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    width: 820px;
+    align-items: center;
+    border: 2px solid #E47B4D;
+    display: none;
+    background-color: #1D3557;
+}
+
+.code div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.hide-code {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #E47B4D;
+}
+
+.video-code {
+    display: flex;
+    margin-top: 1em;
+    height: 90%;
+}
+
+.pen-code,
+.video {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 
@@ -386,6 +477,34 @@ a.skills-icons {
         margin: 1em 0 1em 0;
         height: 400px;
         width: 300px;
+    }
+    .ahref {
+        height: 100px;
+        width: 200px;
+    }
+    .ahref2 {
+        height: 100px;
+        width: 200px;
+    }
+    .prj-skills {
+        text-align: center;
+    }
+    /* Video Code */
+    .code {
+        display: flex;
+        padding: 0;
+        margin: 1em 0 1em 0;
+        height: 400px;
+        width: 300px;
+    }
+    .hide-code {
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+    .video-code {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
     }
     /* Skills */
     .skills {

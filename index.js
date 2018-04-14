@@ -1,3 +1,4 @@
+// $('.code').slideUp();
 let text = ["FULL STACK SOFTWARE ENGINEER", "NICE TO MEET YOU :)", "PRATHYUSHA MATTAM"];
 let counter = 0;
 // var elem = document.querySelector('#change-text');
@@ -35,3 +36,15 @@ function myFunction() {
         header.classList.remove("sticky");
     }
 }
+
+//For projects
+$('.one .repo-demo .demo-btn').click(function() {
+    $('.one-demo-code').slideToggle();
+});
+$('.two .repo-demo .demo-btn').click(function() {
+    $('.two-demo-code').slideToggle();
+});
+
+$('.code .hide-button').click(function() {
+    $('.code').slideUp();
+});
