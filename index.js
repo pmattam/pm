@@ -39,9 +39,16 @@ function myFunction() {
 
 //For projects
 $('.one .repo-demo .demo-btn').click(function() {
+    $('.two-demo-code').slideUp();
     $('.one-demo-code').slideToggle();
 });
 $('.two .repo-demo .demo-btn').click(function() {
+    $('.one-demo-code').slideUp();
+    $('.two-demo-code').slideToggle();
+});
+
+$('.two-s .repo-demo-s .demo-btn-s').click(function() {
+    $('.one-demo-code').slideUp();
     $('.two-demo-code').slideToggle();
 });
 
