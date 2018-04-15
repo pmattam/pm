@@ -382,7 +382,7 @@ a.skills-icons {
 
 /* Contact */
 
-#contact-id {
+.contact-id {
     padding-bottom: 5em;
     display: flex;
     flex-direction: column;
@@ -494,12 +494,10 @@ a.skills-icons {
     .prj-skills {
         text-align: center;
     }
-
     /* small */
     .two {
         display: none;
     }
-
     .code {
         display: flex;
         flex-direction: column;
@@ -511,13 +509,11 @@ a.skills-icons {
         background-color: #1D3557;
         margin-bottom: 1em;
     }
-
     .code div {
         display: flex;
         width: 100%;
         justify-content: center;
     }
-
     .project-s {
         display: flex;
         height: 400px;
@@ -537,18 +533,14 @@ a.skills-icons {
         margin-bottom: 1em;
         justify-content: center;
     }
-
     .repo-demo-s {
         display: flex;
         justify-content: space-between;
     }
-
     .repo-demo-s div {
         text-align: center;
     }
-
     /* Video Code */
-
     .hide-code {
         margin-top: 1em;
         margin-bottom: 0;
