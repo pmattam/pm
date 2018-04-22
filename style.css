@@ -363,7 +363,7 @@ p {
 }
 
 .ahref {
-    background-image: url('images/cramIT.jpg');
+    background-image: url('images/project-images/cramIT.jpg');
     height: 200px;
     width: 300px;
     background-repeat: no-repeat;
@@ -377,7 +377,7 @@ p {
 }
 
 .ahref2 {
-    background-image: url('images/impactful.jpg');
+    background-image: url('images/project-images/impactful.jpg');
     height: 200px;
     width: 300px;
     background-repeat: no-repeat;
