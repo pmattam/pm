@@ -37,7 +37,55 @@ function myFunction() {
     }
 }
 
+//For Hamburger Menu
+
+//show and hide display menu
+$('.hamburger-menu').click(function() {
+    $('.hamburger-display').toggle();
+});
+
+// Transition to different parts of page
+$(".home_button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#image-div").offset().top
+    }, 1500);
+    $('.hamburger-display').toggle();
+});
+$(".contact_button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact-id").offset().top
+    }, 1500);
+    $('.hamburger-display').toggle();
+});
+
+$(".profile_button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#profile").offset().top
+    }, 1500);
+    $('.hamburger-display').toggle();
+});
+
+$(".portfolio_button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#portfolio-id").offset().top
+    }, 1500);
+    $('.hamburger-display').toggle();
+
+});
+
+$(".skills_button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#skills-id").offset().top
+    }, 1500);
+    $('.hamburger-display').toggle();
+
+});
+$("#ximg").click(function() {
+    $('.hamburger-display').toggle();
+});
+
 //For projects
+
 $('.one').hover(function() {
     $('.one').addClass('animated pulse');
 }, function() {
@@ -70,6 +118,7 @@ $('.code .hide-button').click(function() {
 });
 
 //For Contact Icons
+
 $('.bt1').hover(function() {
     $('.bt1').addClass('animated pulse');
 }, function() {
