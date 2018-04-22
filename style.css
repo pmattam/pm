@@ -12,7 +12,8 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    font-family: 'Fredericka the Great', cursive;
+    /* font-family: 'Fredericka the Great', cursive; */
+    font-family: 'Abel', sans-serif;
     letter-spacing: 2px;
 }
 
@@ -30,7 +31,7 @@ h2 {
 #image-div {
     height: 100vh;
     width: 100vw;
-    background-image: url('images/apple-keyboard.jpg');
+    background-image: url('images/image1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -49,7 +50,7 @@ h2 {
 .change-text {
     font-size: 50px;
     font-weight: bold;
-    color: #E47B4D;
+    color: #5D5D5D;
     align-self: center;
 }
 
@@ -59,13 +60,25 @@ h2 {
 .header {
     height: 75px;
     width: 100vw;
-    background-color: #E47B4D;
+    /* background-color: #E47B4D; */
+    /* background-color: #C3BDBC; */
+    /* background-color: #F2F2F2; */
+    background-color: #F7F9FC;
+    opacity: 0.8;
+    /* border-top: solid 0.5px #3A3A3A; */
+    border-bottom: solid 1px #D6D7DC;
+    /* box-shadow: 4px 2px 1px rgba(0, 0, 0, 0.5); */
+    /* box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5); */
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
     display: flex;
 }
 
 .sticky {
     position: fixed;
     top: 0;
+    /* border-bottom: solid 0.5px #3A3A3A; */
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .header-title {
@@ -86,13 +99,15 @@ h2 {
 .header-title a {
     text-decoration: none;
     align-self: center;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
-    color: #1D3557;
+    /* color: #1D3557; */
+    color: #3A3A3A;
 }
 
 .material-icons.md-36 {
-    color: #1D3557;
+    /* color: #1D3557; */
+    color: #3A3A3A;
     font-size: 36px;
 }
 
@@ -106,12 +121,14 @@ h2 {
 }
 
 #profile hr {
-    border: solid 1px #1D3557;
+    /* border: solid 1px #1D3557; */
+    /* border: solid 1px #797B86; */
+    border: solid 1px #D6D7DC;
     width: 20%;
 }
 
 .about-picture {
-    background-color: #F6FAFA;
+    /* background-color: #F6FAFA; */
     display: flex;
     justify-content: center;
 }
@@ -121,10 +138,14 @@ h2 {
 }
 
 .about {
-    background-color: #F6FAFA;
+    /* background-color: #F6FAFA; */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.about h2 {
+    color: #3A3A3A;
 }
 
 .about-me {
@@ -138,19 +159,25 @@ h2 {
 
 .about-me h2,
 p {
-    font-family: 'Fredericka the Great', cursive;
+    /* font-family: 'Fredericka the Great', cursive; */
     font-size: 20px;
-    color: #1D3557;
+    /* color: #1D3557; */
+    color: #3A3A3A;
     line-height: 40px;
 }
 
 .about-me a {
-    color: #1D3557;
+    /* color: #1D3557; */
+    /* color: #E47B4D; */
+    /* color: #d99b9b; */
+    color: #D6D7DC;
     text-decoration: none;
 }
 
 .about-me a:hover {
-    color: #E47B4D;
+    /* color: #E47B4D; */
+    /* color: #1D3557; */
+    color: #3A3A3A;
 }
 
 .picture {
@@ -165,9 +192,12 @@ p {
     height: 300px;
     width: 300px;
     border-radius: 2px;
-    border: 1.5px solid #E47B4D;
+    /* border: 1.5px solid #E47B4D; */
+    /* border: solid o.5px #B3B3B3; */
     border-radius: 100%;
-    box-shadow: 2px 2px 2px 2px #1D3557, -2px 0 2px #1D3557;
+    /* box-shadow: 2px 2px 2px 2px #1D3557, -2px 0 2px #1D3557; */
+    /* box-shadow: 2px 2px 2px 2px #B3B3B3, -2px 0 2px #B3B3B3; */
+    box-shadow: 2px 2px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -176,11 +206,14 @@ p {
 #portfolio-id {
     display: flex;
     flex-direction: column;
-    background-color: #EBECED;
+    /* background-color: #EBECED; */
+    /* background-color: #F6FAFA; */
 }
 
 .portfolio hr {
-    border: solid 1px #1D3557;
+    /* border: solid 1px #1D3557; */
+    /* border: solid 1px #797B86; */
+    border: solid 1px #D6D7DC;
     width: 20%;
 }
 
@@ -205,7 +238,14 @@ p {
     display: flex;
     height: 480px;
     width: 380px;
-    border: 2px solid #E47B4D;
+    border-radius: 4px;
+    /* background-color: #EFF0F2; */
+    /* border: 2px solid #E47B4D; */
+    /* border: solid 0.5px #ECECEC; */
+    /* border: solid 0.5px #78A4C8; */
+    /* background-color: #F2F4F5; */
+    /* background-color: #FEFAF6; */
+    background-color: #F7F9FC;
     padding: 0 2em 0 2em;
     margin: 2em 2em 2em 2em;
     flex-direction: column;
@@ -213,6 +253,22 @@ p {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.one:hover {
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+
+.two:hover {
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+
+.bt1:hover {
+    animation-iteration-count: 1;
 }
 
 
@@ -234,12 +290,27 @@ p {
     text-decoration: none;
 }
 
+.prj-title {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.prj-skills {
+    font-weight: bold;
+}
+
 .ahref {
     background-image: url('images/cramIT.jpg');
     height: 200px;
     width: 300px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    /* background-size: 100%; */
+    background-size: cover;
+    /* border: solid 1px #5D5D5D; */
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    background-position-x: -30px;
+    border-radius: 4px;
 }
 
 .ahref2 {
@@ -247,7 +318,23 @@ p {
     height: 200px;
     width: 300px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    /* background-size: 100%; */
+    background-size: cover;
+    /* border: solid 1px #5D5D5D; */
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    background-position: -15px, 0.9px;
+    border-radius: 4px;
+}
+
+.ahref:hover {
+    box-shadow: 2px 2px 3px 4px rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+}
+
+.ahref2:hover {
+    box-shadow: 2px 2px 3px 4px rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
 }
 
 .repo-demo {
@@ -262,8 +349,28 @@ p {
 .repoDemo-btn {
     height: 40px;
     width: 80px;
-    border: solid 1px black;
+    border-radius: 4px;
+    /* border: solid 1px black; */
+    /* border: solid 1px #5D5D5D; */
+    /* border: solid 1px #78A4C8; */
     padding-top: 10px;
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    /* background-color: #D6D7DC; */
+    /* background-color: #95AEC4; */
+    background-color: #C4D6E5;
+    color: #3A3A3A;
+    font-weight: bold;
+}
+
+.repoDemo-btn:hover {
+    /* border: solid 1px #78A4C8; */
+    /* border: solid 1px #DDE8F1;
+    background-color: #EEF3F8; */
+    background-color: #3A3A3A;
+    /* color: #D6D7DC; */
+    color: #95AEC4;
+    opacity: 0.5;
 }
 
 
@@ -275,9 +382,28 @@ p {
     height: 480px;
     width: 820px;
     align-items: center;
-    border: 2px solid #E47B4D;
+    /* border: 2px solid #E47B4D; */
     display: none;
-    background-color: #1D3557;
+    /* background-color: #1D3557; */
+    /* background-color: #D6D7DC; */
+    background-color: #C4D6E5;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+}
+
+.code:hover {
+    /* background-color: #3A3A3A; */
+    background-color: #ADADAD;
+}
+
+.hide-button {
+    font-weight: bold;
+    color: #3A3A3A;
+}
+
+.hide-button:hover {
+    /* color: #D6D7DC; */
+    color: #C4D6E5;
 }
 
 .code div {
@@ -289,7 +415,8 @@ p {
 .hide-code {
     margin-top: 1em;
     margin-bottom: 1em;
-    color: #E47B4D;
+    /* color: #E47B4D; */
+    color: #3A3A3A;
 }
 
 .video-code {
@@ -312,11 +439,13 @@ p {
 #skills-id {
     display: flex;
     flex-direction: column;
-    background-color: #F6FAFA;
+    /* background-color: #F6FAFA; */
 }
 
 .skills hr {
-    border: solid 1px #1D3557;
+    /* border: solid 1px #1D3557; */
+    /* border: solid 1px #797B86; */
+    border: solid 1px #D6D7DC;
     width: 20%;
 }
 
@@ -344,6 +473,10 @@ div.icons.major {
 .icon {
     display: flex;
     margin: 2em 2em 2em 2em;
+    height: 80px;
+    width: 80px;
+    /* border-radius: 4px;
+    border: solid 1px grey; */
 }
 
 div.icons.major a {
@@ -354,7 +487,8 @@ div.icons.major a {
 }
 
 div.icons.major span {
-    color: #1D3557;
+    /* color: #1D3557; */
+    color: #3A3A3A;
 }
 
 a.skills-icons {
@@ -368,7 +502,7 @@ a.skills-icons {
 
 [class*=" devicon-"],
 [class^=devicon-] {
-    font-size: 50px;
+    font-size: 20px;
     font-family: devicon;
     color: #1D3557;
     font-style: normal;
@@ -386,11 +520,15 @@ a.skills-icons {
     padding-bottom: 5em;
     display: flex;
     flex-direction: column;
-    background-color: #EBECED;
+    /* background-color: #EBECED; */
+    /* background-color: #F6FAFA; */
+    background-color: #F7F9FC;
 }
 
 .contact hr {
-    border: solid 1px #1D3557;
+    /* border: solid 1px #1D3557; */
+    /* border: solid 1px #797B86; */
+    border: solid 1px #D6D7DC;
     width: 20%;
 }
 
@@ -420,6 +558,24 @@ a.skills-icons {
 .c-bt img {
     height: 60px;
     padding: 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+    background-color: #95AEC4;
+    border-radius: 100%;
+}
+
+.c-bt img:hover {
+    /* background-color: #EEF3F7; */
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.4);
+    opacity: 0.5;
+}
+
+.bt1:hover,
+.bt2:hover,
+.bt3:hover,
+.bt4:hover,
+.bt5:hover {
+    animation-duration: 5s;
+    animation-iteration-count: 1;
 }
 
 
