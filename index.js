@@ -98,6 +98,12 @@ $('.two').hover(function() {
     $('.two').removeClass('animated pulse');
 });
 
+$('.two-s').hover(function() {
+    $('.two-s').addClass('animated pulse');
+}, function() {
+    $('.two-s').removeClass('animated pulse');
+});
+
 $('.one .repo-demo .demo-btn').click(function() {
     $('.two-demo-code').slideUp();
     $('.one-demo-code').slideToggle();
